@@ -1,0 +1,96 @@
+.trabalhos{
+    padding: 72px 120px 120px 120px;
+    background-color: var(--gray-300);
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.destaque {
+    font: var(--subtitle);
+    color: var(--red);
+}
+
+.tituloh2{
+    font: var(--title-md);
+    color: var(--gray-600);
+    align-items: center;
+}
+
+.cards-trabalhos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    justify-content: center;
+    padding: 72px 120px 144px 120px;
+}
+
+.card {
+    background-color: var(--gray-200);
+    border-radius: 12px;
+    padding: 12px;
+    width: 400px
+}
+
+.card:hover {
+    border: 1.5px solid var(--gray-400);
+}
+
+h3{
+    color: var(--gray-600);
+    font: var(--title-sm);
+    margin-top: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.text-card{
+    color: var(--gray-500);
+    font: var(--text-sm);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+
+}
+
+.image-card{
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*SESSÃO DE SERVIÇOS    */
+
+.servicos {
+    background-color: var(--gray-100);
+    padding: 88px 120px 120px 120px
+}
+
+.servicos-alinhamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding-left: 239px;
+    padding-right: 239px;
+    margin-top: 56px;
+}
+
+.cards-servicos {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    width: 320px;
+    padding: 20px;
+}
+
+.icones{
+    width: 48px;
+    height: 48px;
+}

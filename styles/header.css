@@ -1,0 +1,65 @@
+header {
+    /*Tentei colocar imagem de plano de fundo, mas algo está errado, não sei o que é até hoje
+    background: url("/bg.jpg");
+    */
+    background: var(--gray-200);
+    background-position: center;
+    height: 900px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 163px 57px 163px;
+}
+
+.foto-perfil{
+    width: 95px;
+    height: 95px;
+    border-radius: 9999px;
+    border: solid 2px var(--red);
+    margin-bottom: 56px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 200px;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    font: var(--text-md);
+    color: var(--gray-500);
+    align-items: center;
+    background: var(--gray-300);
+    border-radius: 999px;
+    padding: 8px 16px;
+    gap: 8px;
+}
+
+.destaque-header{
+    font: var(--subtitle);
+    color: var(--gray-500);
+    margin-bottom: 8px;
+}
+
+span{
+    color: var(--red);
+}
+
+.titulo-header {
+    font: var(--title-lg);
+    color: var(--gray-600);
+    margin-bottom: 20px;
+}
+
+.sobre-header{
+    font: var(--text-sm);
+    color: var(--gray-400);
+    text-align: center;
+    width: 680px;
+    height: 40px;
+    margin-bottom: 80px;
+}
+

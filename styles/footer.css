@@ -1,0 +1,70 @@
+footer{
+    /*Tentei colocar imagem de plano de fundo, mas algo está errado, não sei o que é até hoje
+    background: url("/bg.jpg");
+    */
+    background-color: var(--gray-200);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 128px 120px 200px 120px;
+}
+
+.titulo-contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 48px;
+
+}
+.contato-destaque{
+    color: var(--purple);
+    font: var(--subtitle);
+}
+
+p{
+    color: var(--gray-500);
+    font: var(--text-md);
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--gray-300);
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+a:hover{
+    border: 1.5px solid var(--blue)
+}
+
+.contatos-colunas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.texto-icone{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.fonte-contato{
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
+    
